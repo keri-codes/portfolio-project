@@ -1,0 +1,84 @@
+:root {
+  --primary-font-family: "Poppins", sans-serif;
+  --secondary-font-family: "Roboto", sans-serif;
+}
+
+body {
+  /* border: #ff4f6e solid 25px; */
+}
+
+h1 {
+  font-family: var(--secondary-font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 45px;
+  color: #ff4f6e;
+}
+
+h2 {
+  font-family: var(--primary-font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 84px;
+  letter-spacing: -0.03em;
+  margin-right: 30px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  padding: 5px;
+  display: inline;
+}
+
+.hero {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 1) 50%,
+    rgba(0, 157, 174, 0.15592174369747902) 100%
+  );
+  padding: 40px 0;
+}
+
+.hero-content {
+  padding-top: 50px;
+}
+
+.pink-button {
+  width: 50px;
+  padding-top: 50px;
+}
+
+.contact-me-content {
+  padding-top: 60px;
+}
+
+.arrow {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: flex-end;
+  align-content: stretch;
+}
+
+.social-section {
+  padding-top: 50px;
+}
+
+.social {
+  width: 55px;
+}
+
+.social:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  transition: all 150ms ease-in-out;
+}
