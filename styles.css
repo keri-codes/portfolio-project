@@ -8,7 +8,7 @@
 }
 
 body {
-  border: var(--secondary-color) solid 25px;
+  border: var(--secondary-color) solid 15px;
 }
 
 h1 {
@@ -27,7 +27,6 @@ h2 {
   font-size: 65px;
   line-height: 84px;
   letter-spacing: -0.03em;
-  margin-right: 30px;
 }
 
 h3 {
@@ -35,6 +34,10 @@ h3 {
   font-weight: 700;
   font-size: 50px;
   letter-spacing: -0.03em;
+}
+
+h4 {
+  font-family: var(--primary-font-family);
 }
 
 ul {
@@ -106,19 +109,28 @@ p {
   font-family: var(--secondary-font-family);
 }
 
-.hero {
-  background: rgb(255, 255, 255);
+.hero,
+.about-hero {
   background: linear-gradient(
     90deg,
     rgba(255, 255, 255, 1) 0%,
     rgba(255, 255, 255, 1) 50%,
     rgba(0, 157, 174, 0.15592174369747902) 100%
   );
-  padding: 40px 0;
+}
+
+.hero-right-column {
+  background: url("/images/hero-sidebar-bg.png") no-repeat;
+  height: 100vh;
+}
+
+.hero-image {
+  display: block;
+  margin: 0 auto;
 }
 
 .hero-content {
-  padding-top: 50px;
+  padding-top: 100px;
 }
 
 .pink-button {
@@ -155,7 +167,7 @@ p {
 }
 
 .featured {
-  margin: 50px auto;
+  padding-bottom: 60px;
 }
 
 .description {
@@ -168,6 +180,9 @@ p {
   font-size: 45px;
 }
 
+.project {
+  margin-bottom: 150px !important;
+}
 .project-image {
   display: block;
   margin: 0 auto;
@@ -197,6 +212,25 @@ p {
   text-decoration: none;
 }
 
+/*ABOUT PAGE*/
+.about-image {
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+}
+
+.about-hero {
+  background: url("/images/about-bg.png") no-repeat;
+  height: 100vh;
+}
+
+.card-title {
+  color: var(--secondary-color);
+  font-size: 30px;
+  font-weight: 700;
+}
+
+/*RESPONSIVE LAYOUT*/
 @media (max-width: 960px) {
   .featured {
     margin: 30px 0;
