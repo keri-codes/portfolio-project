@@ -256,6 +256,25 @@ a.portfolio-button:hover {
   text-align: center;
 }
 
+/*WORK PAGE*/
+.work-subtitle {
+  font-size: 30px;
+  line-height: 1.3em;
+  padding: 30px 0;
+  font-family: var(--primary-font-family);
+}
+
+.work-image {
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+  width: 400px;
+}
+
+.work-hero {
+  background: url("/images/about-bg.png") no-repeat;
+}
+
 /* .card-title {
   color: var(--secondary-color);
   font-size: 30px;
