@@ -264,23 +264,14 @@ a.portfolio-button:hover {
   font-family: var(--primary-font-family);
 }
 
-.work-image {
+.work-img {
   border-radius: 10px;
   display: block;
   margin: 0 auto;
-  width: 400px;
+  width: 550px;
+  box-shadow: var(--box-shadow);
 }
 
-.work-hero {
-  background: url("/images/about-bg.png") no-repeat;
-}
-
-/* .card-title {
-  color: var(--secondary-color);
-  font-size: 30px;
-  font-weight: 700;
-}
- */
 /*RESPONSIVE LAYOUT*/
 @media (max-width: 960px) {
   .featured {
