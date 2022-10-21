@@ -326,7 +326,7 @@ a.portfolio-button:hover {
   font-weight: 500;
   margin-bottom: 0.5em;
   font-family: var(--primary-font-family);
-  font-size: 40px;
+  font-size: 30px;
   text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
 }
 .fadeIn-bottom {
