@@ -55,6 +55,10 @@ p {
   font-size: 18px;
 }
 
+footer {
+  background-color: #009cad;
+  padding: 40px;
+}
 .nav-title a {
   text-decoration: none;
 }
@@ -344,15 +348,51 @@ a.portfolio-button:hover {
   height: 90vh;
 }
 
+h3.contact-content {
+  font-size: 40px;
+  font-family: var(--primary-font-family);
+}
+
+p.contact-content {
+  font-family: var(--secondary-font-family);
+  font-size: 20px;
+}
+
 a.contact-link {
   color: #212529;
   text-decoration: none;
-  padding: 50px 0;
 }
 
 a.contact-link:hover {
   color: #009dad;
   text-decoration: none;
+}
+
+#submitButton {
+  background: var(--accent-color);
+  box-shadow: var(--box-shadow);
+  color: #ffffff;
+  padding: 15px 20px;
+  border-radius: 4px;
+  border: solid 1px var(--accent-color);
+  text-decoration: none;
+  font-family: var(--primary-font-family);
+  text-align: center;
+}
+
+#submitButton:hover {
+  background: #ffffff;
+  box-shadow: var(--box-shadow);
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+/*FOOTER*/
+.copyright {
+  color: #ffffff;
+  font-family: var(--secondary-font-family);
+  font-weight: 300;
+  font-size: 18px;
 }
 
 /*RESPONSIVE LAYOUT*/
