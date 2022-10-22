@@ -59,6 +59,17 @@ footer {
   background-color: #009cad;
   padding: 40px;
 }
+
+footer a {
+  color: #ffaf00;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+footer a:hover {
+  color: #ffffff;
+}
+
 .nav-title a {
   text-decoration: none;
 }
