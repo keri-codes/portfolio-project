@@ -443,6 +443,9 @@ a.contact-link:hover {
   .last-name {
     font-size: 30px;
   }
+  .hero-image {
+    width: 60%;
+  }
   h2.contact-content {
     line-height: 1.2em;
     font-size: 35px;
