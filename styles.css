@@ -467,6 +467,8 @@ a.contact-link:hover {
   }
   .arrow-image {
     width: 70%;
+    display: block;
+    margin: 0 auto;
   }
   .social-section {
     text-align: center;
