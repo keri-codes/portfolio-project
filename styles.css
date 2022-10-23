@@ -25,7 +25,7 @@ h2 {
   font-family: var(--primary-font-family);
   font-style: normal;
   font-weight: 700;
-  font-size: 65px;
+  font-size: 40px;
   line-height: 84px;
   letter-spacing: -0.03em;
 }
@@ -373,6 +373,11 @@ a.portfolio-button:hover {
 }
 
 .fa-solid {
+  color: #ffffff;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+}
+
+.work-link {
   color: #ffffff;
   text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
 }
