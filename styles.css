@@ -249,7 +249,7 @@ img.tools {
 
 /*ABOUT PAGE*/
 .about-me {
-  padding-left: 5em !important;
+  padding: 0 40px 0 100px !important;
 }
 
 .about-subtitle {
@@ -257,6 +257,11 @@ img.tools {
   line-height: 1.3em;
   padding: 30px 0;
   font-family: var(--primary-font-family);
+}
+
+.about-image-col {
+  margin-top: 40px;
+  width: 90%;
 }
 
 .about-image {
@@ -267,6 +272,7 @@ img.tools {
 
 .about-hero {
   background: url("/images/about-bg.png") no-repeat;
+  padding-bottom: 50px !important;
 }
 
 .portfolio-link {
@@ -293,7 +299,7 @@ a.portfolio-button:hover {
 }
 
 .portfolio-social {
-  text-align: center;
+  margin-top: 40px;
 }
 
 /*WORK PAGE*/
@@ -302,6 +308,7 @@ a.portfolio-button:hover {
   line-height: 1.3em;
   padding: 30px 0;
   font-family: var(--primary-font-family);
+  font-weight: 500;
 }
 
 .work-img {
@@ -388,7 +395,7 @@ a.portfolio-button:hover {
   height: 90vh;
 }
 
-h3.contact-content {
+h2.contact-content {
   font-size: 40px;
   font-family: var(--primary-font-family);
 }
@@ -431,6 +438,13 @@ a.contact-link:hover {
   .project-description {
     margin: 0;
   }
+  .about-me {
+    padding: 0 50px 0 50px !important;
+  }
+  .about-subtitle {
+    font-size: 30px;
+    line-height: 1.2em;
+  }
 }
 
 @media (max-width: 960px) {
@@ -444,8 +458,25 @@ a.contact-link:hover {
   li {
     padding: 3px;
   }
-  h2.about-subtitle {
-    font-size: 25px;
+  .col-lg-6.mt-5.about-me {
+    width: 100% !important;
+  }
+  .col-lg-6.mt-5.aboutme-image-col {
+    width: 100% !important;
+  }
+  .about-image-col {
+    margin: 0 auto !important;
+  }
+  img.img-fluid.rounded {
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+  }
+}
+
+@media (min-width: 961px) and (max-width: 1175px) {
+  .about-me {
+    padding: 0 100px 0 100px !important;
   }
 }
 
@@ -459,11 +490,5 @@ a.contact-link:hover {
 @media (max-width: 1565px) {
   .project-image {
     width: 100%;
-  }
-}
-
-@media (max-width: 1675px) {
-  .about-me {
-    margin-left: 3em !important;
   }
 }
