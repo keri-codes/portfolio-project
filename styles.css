@@ -61,7 +61,7 @@ footer {
 }
 
 footer a {
-  color: #ffaf00;
+  color: var(--accent-color);
   text-decoration: none;
   cursor: pointer;
 }
@@ -456,7 +456,10 @@ a.contact-link:hover {
     font-size: 35px;
   }
   .hero-content h3 {
-    font-size: 25px;
+    font-size: 22px;
+  }
+  .arrow-image {
+    width: 80%;
   }
   .social-section {
     text-align: center;
@@ -469,7 +472,16 @@ a.contact-link:hover {
   .learning-title {
     font-size: 35px;
   }
-
+  .project-section-1,
+  .project-section-2 {
+    width: 100%;
+  }
+  .sunflower-title {
+    margin-top: 50px !important;
+  }
+  .sunflower-description {
+    padding: 0 30px;
+  }
   .project-description {
     margin: 0;
   }
@@ -522,6 +534,17 @@ a.contact-link:hover {
   .col-md-4 {
     width: 50%;
     margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 1354px) {
+  .sunflower-title,
+  .weather-title,
+  .learning-title {
+    margin-bottom: 30px !important;
+  }
+  .description {
+    margin: 0 auto;
   }
 }
 
