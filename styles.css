@@ -463,6 +463,9 @@ a.contact-link:hover {
     line-height: 1.2em;
     font-size: 35px;
   }
+  .home-tag {
+    padding-bottom: 30px;
+  }
   .contact-me-content {
     padding-top: 50px;
   }
