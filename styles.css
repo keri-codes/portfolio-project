@@ -451,19 +451,27 @@ a.contact-link:hover {
   .hero-image {
     width: 80%;
   }
+  h1 {
+    text-align: center;
+  }
   h2 {
-    font-size: 26px;
+    font-size: 30px;
     line-height: 1.2em;
+    text-align: center;
   }
   h2.contact-content {
     line-height: 1.2em;
     font-size: 35px;
   }
+  .contact-me-content {
+    padding-top: 50px;
+  }
   .hero-content h3 {
-    font-size: 22px;
+    font-size: 20px;
+    text-align: center;
   }
   a.home-contact-link {
-    font-size: 20px;
+    font-size: 25px;
   }
   .arrow-image {
     width: 70%;
