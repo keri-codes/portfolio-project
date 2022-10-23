@@ -422,6 +422,11 @@ a.contact-link:hover {
   padding-top: 50px;
 }
 
+.contact-animation {
+  display: block;
+  margin: 0 auto;
+}
+
 /*FOOTER*/
 .copyright {
   color: #ffffff;
@@ -432,6 +437,10 @@ a.contact-link:hover {
 
 /*RESPONSIVE LAYOUT*/
 @media (max-width: 960px) {
+  h2.contact-content {
+    line-height: 1.2em;
+    font-size: 35px;
+  }
   .featured {
     margin: 30px 0;
   }
@@ -471,6 +480,9 @@ a.contact-link:hover {
     width: 90%;
     margin: 0 auto;
     display: block;
+  }
+  .contact-animation {
+    width: 90%;
   }
 }
 
