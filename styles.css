@@ -502,7 +502,7 @@ a.contact-link:hover {
   .sunflower-title,
   .learning-title,
   .weather-title {
-    margin-top: 50px !important;
+    margin-top: 65px !important;
   }
   .sunflower-description,
   .learning-description,
@@ -517,6 +517,12 @@ a.contact-link:hover {
   }
   .about-me {
     padding: 0 50px 0 50px !important;
+  }
+  .aboutme-image-col {
+    margin-top: 20px !important;
+  }
+  .portfolio-social {
+    margin-top: 50px !important;
   }
   .about-subtitle {
     font-size: 30px;
