@@ -214,6 +214,7 @@ a.home-contact-link:hover {
 
 .project {
   margin-bottom: 150px !important;
+  margin: 0 auto;
 }
 .project-image {
   display: block;
@@ -480,7 +481,7 @@ a.contact-link:hover {
     margin-top: 50px !important;
   }
   .sunflower-description {
-    padding: 0 30px;
+    padding: 0 20px;
   }
   .project-description {
     margin: 0;
