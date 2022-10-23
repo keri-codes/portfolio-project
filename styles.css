@@ -32,7 +32,7 @@ h2 {
 
 h3 {
   font-family: var(--primary-font-family);
-  font-weight: 700;
+  font-weight: 600;
   font-size: 50px;
   letter-spacing: -0.03em;
 }
@@ -148,6 +148,12 @@ footer a:hover {
   padding-top: 100px;
 }
 
+.hero-content h3 {
+  font-weight: 500;
+  font-size: 30px;
+  padding-top: 30px;
+}
+
 .pink-button {
   width: 50px;
   padding-top: 50px;
@@ -155,6 +161,16 @@ footer a:hover {
 
 .contact-me-content {
   padding-top: 60px;
+}
+
+a.home-contact-link {
+  color: #212529;
+  text-decoration: none;
+}
+
+a.home-contact-link:hover {
+  color: #ff4f6e;
+  text-decoration: none;
 }
 
 .arrow {
@@ -192,7 +208,7 @@ footer a:hover {
 .sunflower-title,
 .weather-title,
 .learning-title {
-  font-size: 45px;
+  font-size: 40px;
 }
 
 .project {
@@ -207,6 +223,10 @@ footer a:hover {
 
 .tools {
   width: 45px;
+}
+
+img.tools {
+  margin-bottom: 10px;
 }
 
 .app-link {
@@ -228,6 +248,10 @@ footer a:hover {
 }
 
 /*ABOUT PAGE*/
+.about-me {
+  padding-left: 5em !important;
+}
+
 .about-subtitle {
   font-size: 40px;
   line-height: 1.3em;
@@ -372,6 +396,9 @@ p.contact-content {
 a.contact-link {
   color: #212529;
   text-decoration: none;
+  font-family: var(--primary-font-family);
+  font-weight: 600;
+  font-size: 25px;
 }
 
 a.contact-link:hover {
@@ -379,23 +406,8 @@ a.contact-link:hover {
   text-decoration: none;
 }
 
-#submitButton {
-  background: var(--accent-color);
-  box-shadow: var(--box-shadow);
-  color: #ffffff;
-  padding: 15px 20px;
-  border-radius: 4px;
-  border: solid 1px var(--accent-color);
-  text-decoration: none;
-  font-family: var(--primary-font-family);
-  text-align: center;
-}
-
-#submitButton:hover {
-  background: #ffffff;
-  box-shadow: var(--box-shadow);
-  color: var(--accent-color);
-  text-decoration: none;
+.email {
+  padding-top: 50px;
 }
 
 /*FOOTER*/
@@ -413,5 +425,40 @@ a.contact-link:hover {
   }
   .project-description {
     margin: 0;
+  }
+}
+
+@media (max-width: 960px) {
+  .col-md-4 {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 1175px) {
+  li {
+    padding: 3px;
+  }
+  h2.about-subtitle {
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 961px) and (max-width: 1285px) {
+  .col-md-4 {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 1565px) {
+  .project-image {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1675px) {
+  .about-me {
+    margin-left: 3em !important;
   }
 }

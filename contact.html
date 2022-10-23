@@ -29,6 +29,8 @@
       src="https://kit.fontawesome.com/2f823ff499.js"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -85,15 +87,15 @@
       <h1 class="text-center mt-5 mb-5">Contact Me</h1>
       <div class="row">
         <div class="col-md-6 text-center">
-          <div class="contact mt-3">
-            <h3 class="contact-content">How can I help YOU?</h3>
+          <div class="contact mt-5">
+            <h3 class="contact-content">Let's work together!</h3>
             <p class="contact-content mt-5">
               Do you have a question or are you interested in working with me?
             </p>
             <p class="contact-content">
               Just fill out the form or send me an email.
             </p>
-            <p class="text-center contact-content">
+            <p class="text-center contact-content email">
               <a
                 href="mailto:keri@keriritenour.com"
                 class="contact-link"
@@ -151,101 +153,11 @@
           </div>
         </div>
         <div class="col-md-6">
-          <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-            <div class="mb-3">
-              <label class="form-label" for="firstName">First Name</label>
-              <input
-                class="form-control"
-                id="firstName"
-                type="text"
-                placeholder="Jane"
-                data-sb-validations="required"
-              />
-              <div
-                class="invalid-feedback"
-                data-sb-feedback="firstName:required"
-              >
-                First Name is required.
-              </div>
-            </div>
-            <div class="mb-3">
-              <label class="form-label" for="lastName">Last Name</label>
-              <input
-                class="form-control"
-                id="lastName"
-                type="text"
-                placeholder="Doe"
-                data-sb-validations="required"
-              />
-              <div
-                class="invalid-feedback"
-                data-sb-feedback="lastName:required"
-              >
-                Last Name is required.
-              </div>
-            </div>
-            <div class="mb-3">
-              <label class="form-label" for="emailAddress">Email Address</label>
-              <input
-                class="form-control"
-                id="emailAddress"
-                type="email"
-                placeholder="janedoe@example.com"
-                data-sb-validations="required,email"
-              />
-              <div
-                class="invalid-feedback"
-                data-sb-feedback="emailAddress:required"
-              >
-                Email Address is required.
-              </div>
-              <div
-                class="invalid-feedback"
-                data-sb-feedback="emailAddress:email"
-              >
-                Email Address Email is not valid.
-              </div>
-            </div>
-            <div class="mb-3">
-              <label class="form-label" for="message">Message</label>
-              <textarea
-                class="form-control"
-                id="message"
-                type="text"
-                placeholder="Tell me more about your project, needs or timeline."
-                style="height: 10rem"
-                data-sb-validations="required"
-              ></textarea>
-              <div class="invalid-feedback" data-sb-feedback="message:required">
-                Message is required.
-              </div>
-            </div>
-            <div class="d-none" id="submitSuccessMessage">
-              <div class="text-center mb-3">
-                <div class="fw-bolder">Form submission successful!</div>
-                <p>To activate this form, sign up at</p>
-                <a href="https://startbootstrap.com/solution/contact-forms"
-                  >https://startbootstrap.com/solution/contact-forms</a
-                >
-              </div>
-            </div>
-            <div class="d-none" id="submitErrorMessage">
-              <div class="text-center text-danger mb-3">
-                Error sending message!
-              </div>
-            </div>
-            <div class="d-grid">
-              <button
-                class="btn contact-button btn-lg disabled"
-                id="submitButton"
-                type="submit"
-              >
-                Submit
-              </button>
-            </div>
-          </form>
+          <img
+            src="/images/contact-animation.gif"
+            alt="animation of paper plane flying around opening and shutting envelope"
+          />
         </div>
-        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
       </div>
     </div>
     <footer class="text-center">
