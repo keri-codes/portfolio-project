@@ -463,6 +463,9 @@ a.contact-link:hover {
     line-height: 1.2em;
     font-size: 35px;
   }
+  h3.featured {
+    font-size: 40px;
+  }
   .home-tag {
     padding-bottom: 30px;
   }
