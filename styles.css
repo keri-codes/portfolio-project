@@ -462,6 +462,9 @@ a.contact-link:hover {
   .hero-content h3 {
     font-size: 22px;
   }
+  a.home-contact-link {
+    font-size: 30px;
+  }
   .arrow-image {
     width: 70%;
   }
