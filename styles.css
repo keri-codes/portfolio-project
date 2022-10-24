@@ -529,7 +529,9 @@ a.contact-link:hover {
     font-size: 40px;
     line-height: 1.2em;
   }
-  .about-subtitle,
+  h2.about-subtitle {
+    font-size: 25px;
+  }
   .work-subtitle {
     font-size: 22px;
   }
