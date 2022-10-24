@@ -532,6 +532,9 @@ a.contact-link:hover {
   h2.about-subtitle {
     font-size: 25px;
   }
+  .social {
+    width: 53px;
+  }
   .work-subtitle {
     font-size: 22px;
   }
