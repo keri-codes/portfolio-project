@@ -537,6 +537,8 @@ a.contact-link:hover {
   }
   .portfolio-social {
     margin-top: 50px !important;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
   }
   .about-subtitle {
     font-size: 30px;
