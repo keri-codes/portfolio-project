@@ -521,6 +521,16 @@ a.contact-link:hover {
   .aboutme-image-col {
     margin-top: 20px !important;
   }
+  .hero-row {
+    margin-bottom: 0 !important;
+  }
+  .work-title {
+    font-size: 50px;
+    line-height: 1.3em;
+  }
+  .work-subtitle {
+    font-size: 25px;
+  }
   .portfolio-social {
     margin-top: 50px !important;
   }
