@@ -314,6 +314,16 @@ a.portfolio-button:hover {
   padding-top: 30px;
 }
 
+.email-me-link {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+.email-me-link:hover {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
 /*WORK PAGE*/
 .work-subtitle {
   font-size: 30px;
@@ -418,7 +428,7 @@ p.contact-content {
 }
 
 a.contact-link {
-  color: #212529;
+  color: var(--secondary-color);
   text-decoration: none;
   font-family: var(--primary-font-family);
   font-weight: 600;
@@ -426,7 +436,7 @@ a.contact-link {
 }
 
 a.contact-link:hover {
-  color: #009dad;
+  color: var(--primary-color);
   text-decoration: none;
 }
 
